@@ -167,7 +167,7 @@ if (!window.analytics || typeof window.analytics.track !== 'function') {
   }
   analytics.ready(function() { window.analytics['isReady'] = true });
   analytics.setAnonymousId(readVisitorIdCookie());
-  
+
   analytics.page('errors#show');
 })();</script><script>(function(A, d, S, t, a, g, e) {
   A['AdstageAnalytics'] = a;
@@ -257,7 +257,7 @@ if (!window.analytics || typeof window.analytics.track !== 'function') {
   }
   analytics.ready(function() { window.analytics['isReady'] = true });
   analytics.setAnonymousId(readVisitorIdCookie());
-  
+
   analytics.page('errors#show');
 })();</script><script>(function(A, d, S, t, a, g, e) {
   A['AdstageAnalytics'] = a;
