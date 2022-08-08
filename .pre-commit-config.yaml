@@ -8,20 +8,20 @@ repos:
     - id: check-useless-excludes
     - id: check-hooks-apply
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.0.1
+    rev: v4.3.0
     hooks:
     - id: trailing-whitespace
     - id: end-of-file-fixer
   - repo: https://github.com/pycqa/isort
-    rev: 5.9.3
+    rev: 5.10.1
     hooks:
     - id: isort
       args: ["--profile", "black", "--filter-files"]
   - repo: https://github.com/pycqa/flake8
-    rev: 4.0.1
+    rev: 5.0.4
     hooks:
     - id: flake8
   - repo: https://github.com/PyCQA/bandit
-    rev: 1.7.0
+    rev: 1.7.4
     hooks:
     - id: bandit
